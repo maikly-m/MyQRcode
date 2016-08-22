@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ha"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#ff0000"/>
+
+    <EditText
+        android:id="@+id/et_creat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_creat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生成" />
+
+    <ImageView
+        android:id="@+id/iv_creat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher" />
+</LinearLayout >
